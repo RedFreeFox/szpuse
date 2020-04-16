@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="szpspring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>szpspring</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="szpspring.war">
+      <element id="artifact" artifact-name="szpspring:war exploded" />
+    </root>
+  </artifact>
+</component>
