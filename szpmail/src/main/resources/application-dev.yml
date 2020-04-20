@@ -39,10 +39,12 @@ spring:
           starttls:
             enable: true
             required: true
-
-#logger
-logging:
-  level:
-    com:
-      szptest:
-        mapper : info
+  data:
+    solr:
+      host: http://47.107.80.121:8983/solr/new_core
+          #logger
+          logging:
+            level:
+              com:
+                szptest:
+                  mapper: info
